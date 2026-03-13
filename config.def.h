@@ -7,13 +7,13 @@ static int min_width = 500;                    /* minimum width when centered */
 static const float menu_height_ratio = 4.0f;  /* This is the ratio used in the original calculation */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	"IosevkaComfy Nerd Font:size=14:weight=semibold"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
+	[SchemeSel] = { "#eeeeee", "#282828" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
